@@ -43,15 +43,29 @@
                     <li class="breadcrumb-item active" aria-current="page">Home</li>
                 </ol>
             </nav>
-
             <div class="row">
                 <div class="col-sm-4">
+                    <button class="btn btn-primary" type="button" data-toggle="collapse"
+                    data-target="#funciona" aria-expanded="false" aria-controls="multiCollapse1">¿Cómo funciona?</button>
+                </div>
+                <div class="col-sm-4">
+                    <button class="btn btn-primary" type="button" data-toggle="collapse"
+                    data-target="#reserva" aria-expanded="false" aria-controls="multiCollapse2">¿Dónde puedo reservar?</button>
+                </div>
+                <div class="col-sm-4">
+                    <button class="btn btn-primary" type="button" data-toggle="collapse"
+                    data-target="#pago" aria-expanded="false" aria-controls="multiCollapse3">¿Cómo pago?</button>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-4 collapse multi-collapse" id="funciona">
                     <p>
                         <h3>Cómo funciona?</h3>
                         <p> Busca los hoteles de acuerdi a tu preferencia</p>
                     </p>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-sm-4 collapse multi-collapse" id="reserva">
                     <p>
                         <h3>Dónde puedo reservar?</h3>
                         <p>Elige la ciudad que te interese y luego realiza
@@ -59,7 +73,7 @@
                         </p>
                     </p>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-sm-4 collapse multi-collapse" id="pago">
                     <p>
                         <h3>Cómo pago?</h3>
                         <p>Utilize su tarjeta favorita</p>
