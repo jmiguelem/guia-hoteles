@@ -1,133 +1,152 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, 
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, 
         initial-scale=1, shrink-to-fit=no">
-        
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" 
-            href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-        <link rel="stylesheet" 
-            href="css/main.css">
-        <link rel="stylesheet" 
-            href="node_modules/open-iconic/font/css/open-iconic-bootstrap.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="node_modules/open-iconic/font/css/open-iconic-bootstrap.min.css">
 
 
-        <title>Guia-Hoteles</title>
-    </head>
-    <body>
-        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-            <a class="navbar-brand" href="#">Hoteles</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" 
-            data-target="#navbarSupportedContent" aria-controls="navbarNavDropdown" 
-            aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="./about.html">Nosotros</a></li>
-                    <li class="nav-item active"><a class="nav-link" href="#">Precios</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Términos y condiciones</a></li>
-                    <li class="nav-item"><a class="nav-link" href="./contacto.html">Contacto</a></li>
-                </ul>
-            </div> 
-        </nav>
-        <div class="jumbotron">
-            <h1>Guia de Hoteles</h1>
+    <title>Guia-Hoteles</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#">Hoteles</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="./about.html">Nosotros</a></li>
+                <li class="nav-item active"><a class="nav-link" href="#">Precios</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Términos y condiciones</a></li>
+                <li class="nav-item"><a class="nav-link" href="./contacto.html">Contacto</a></li>
+            </ul>
         </div>
-        <div class="container">
-            <nav aria-label="breadcrumb">
-                <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Precios</li>
-                </ol>
-            </nav>
+    </nav>
+    <div class="jumbotron">
+        <h1>Guia de Hoteles</h1>
+    </div>
+    <div class="container">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Precios</li>
+            </ol>
+        </nav>
 
-            <div class="table-responsive"> 
-                <table class="table table-striped">
-                    <thead class="thead-dark">
-                        <th>Calidad</th>
-                        <th>Monclova</th>
-                        <th>Monterrey</th>
-                        <th>Ciudad de México</th>
-                        <th>Cancun</th>
-                    </thead>
-                    <tbody>
-                        <!--1 estrella-->
-                        <tr>
-                            <td><span class="oi oi-star"></span> </td>
-                            <td>$100</td>
-                            <td>$250</td>
-                            <td>$300</td>
-                            <td>$400</td>
-                        </tr>
-                        <!--2 estrellas-->
-                        <tr>
-                            <td><span class="oi oi-star"></span>
-                                <span class="oi oi-star"></span></td>
-                            <td>$300</td>
-                            <td>$650</td>
-                            <td>$700</td>
-                            <td>$800</td>
-                        </tr>
-                        <!--3 estrellas-->
-                        <tr>
-                            <td><span class="oi oi-star"></span>
-                                <span class="oi oi-star">
-                                </span><span class="oi oi-star"></span></td>
-                            <td>$500</td>
-                            <td>$850</td>
-                            <td>$950</td>
-                            <td>$1200</td>
-                        </tr>
-                        <!--4 estrellas-->
-                        <tr>
-                            <td><span class="oi oi-star"></span>
-                                <span class="oi oi-star"></span>
-                                <span class="oi oi-star"></span>
-                                <span class="oi oi-star"></span></td>
-                            <td>$650</td>
-                            <td>$900</td>
-                            <td>$1100</td>
-                            <td>$1500</td>
-                        </tr>
-                        <!--5 estrellas-->
-                        <tr>
-                            <td><span class="oi oi-star"></span>
-                                <span class="oi oi-star"></span>
-                                <span class="oi oi-star"></span>
-                                <span class="oi oi-star"></span>
-                                <span class="oi oi-star"></span></td>
-                            <td>$850</td>
-                            <td>$1450</td>
-                            <td>$1500</td>
-                            <td>$1900</td>
-                        </tr>
-                    </tbody>
-    
-                </table>
-            </div>
-
-            <div class="d-flex justify-content-center">
-                <div class="card" style="width: 18rem;">
-                <div class="card-header" style="background-color: rgb(251, 255, 0);" >
-                    <strong>Tarjetas Aceptadas</strong> 
+        <ul class="nav nav-pills" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="compara-tab" data-toggle="pill" href="#compara" role="tab"
+                    aria-controls="compara" aria-selected="true">Compara</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="tarjetas-tab" data-toggle="pill" href="#tarjetas" role="tab"
+                    aria-controls="tarjetas" aria-selected="false">Tarjetas</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="comentarios-tab" data-toggle="pill" href="#comentarios" role="tab"
+                    aria-controls="comentarios" aria-selected="false">Comentarios</a>
+            </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="compara" role="tabpanel" aria-labelledby="compara-tab">
+                <div class="table-responsive">
+                    <table class="table table-striped">
+                        <thead class="thead-dark">
+                            <th>Calidad</th>
+                            <th>Monclova</th>
+                            <th>Monterrey</th>
+                            <th>Ciudad de México</th>
+                            <th>Cancun</th>
+                        </thead>
+                        <tbody>
+                            <!--1 estrella-->
+                            <tr>
+                                <td><span class="oi oi-star"></span> </td>
+                                <td>$100</td>
+                                <td>$250</td>
+                                <td>$300</td>
+                                <td>$400</td>
+                            </tr>
+                            <!--2 estrellas-->
+                            <tr>
+                                <td><span class="oi oi-star"></span>
+                                    <span class="oi oi-star"></span></td>
+                                <td>$300</td>
+                                <td>$650</td>
+                                <td>$700</td>
+                                <td>$800</td>
+                            </tr>
+                            <!--3 estrellas-->
+                            <tr>
+                                <td><span class="oi oi-star"></span>
+                                    <span class="oi oi-star">
+                                    </span><span class="oi oi-star"></span></td>
+                                <td>$500</td>
+                                <td>$850</td>
+                                <td>$950</td>
+                                <td>$1200</td>
+                            </tr>
+                            <!--4 estrellas-->
+                            <tr>
+                                <td><span class="oi oi-star"></span>
+                                    <span class="oi oi-star"></span>
+                                    <span class="oi oi-star"></span>
+                                    <span class="oi oi-star"></span></td>
+                                <td>$650</td>
+                                <td>$900</td>
+                                <td>$1100</td>
+                                <td>$1500</td>
+                            </tr>
+                            <!--5 estrellas-->
+                            <tr>
+                                <td><span class="oi oi-star"></span>
+                                    <span class="oi oi-star"></span>
+                                    <span class="oi oi-star"></span>
+                                    <span class="oi oi-star"></span>
+                                    <span class="oi oi-star"></span></td>
+                                <td>$850</td>
+                                <td>$1450</td>
+                                <td>$1500</td>
+                                <td>$1900</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item">Tarjeta Basica</li>
-                    <li class="list-group-item">Tarjeta VIP</li>
-                    <li class="list-group-item">Tarjeta Black</li>
-                </ul>
             </div>
-            
+            <div class="tab-pane fade" id="tarjetas" role="tabpanel" aria-labelledby="tarjetas-tab">
+                <div class="d-flex justify-content-center">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-header" style="background-color: rgb(251, 255, 0);">
+                            <strong>Tarjetas Aceptadas</strong>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Tarjeta Basica</li>
+                            <li class="list-group-item">Tarjeta VIP</li>
+                            <li class="list-group-item">Tarjeta Black</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="comentarios" role="tabpanel" aria-labelledby="comentarios-tab">
+                Comentarios
+            </div>
+
         </div>
 
         <footer>
             <div class="row">
-                <div class="col-sm-4 d-flex flex-column" >
+                <div class="col-sm-4 d-flex flex-column">
                     <h3>Redes Sociales</h3>
                     <p><a href="https://www.facebook.com/">Facebook</a></p>
                     <p><a href="https://www.instagram.com/">Instagram</a></p>
@@ -136,9 +155,11 @@
                 <div class="col-sm-4">
                     <address>
                         <h3>Contacto</h3>
-                        <p><span class="oi oi-location footer-address-icon"></span> Monterrey Nuevo Leon | Monclova Coahuila</p>
+                        <p><span class="oi oi-location footer-address-icon"></span> Monterrey Nuevo Leon | Monclova
+                            Coahuila</p>
                         <p><span class="oi oi-phone footer-address-icon"></span> 8662059205</p>
-                        <p> <span class="oi oi-envelope-closed footer-address-icon"></span> miguel.elizaldem@outlook.com</p>
+                        <p> <span class="oi oi-envelope-closed footer-address-icon"></span> miguel.elizaldem@outlook.com
+                        </p>
                     </address>
                 </div>
             </div>
@@ -146,8 +167,9 @@
 
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="node_modules/jquery/dist/jquery.min.js" ></script>
-        <script src="node_modules/popper.js/dist/popper.min.js" ></script>
-        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js" ></script>
-    </body>
+        <script src="node_modules/jquery/dist/jquery.min.js"></script>
+        <script src="node_modules/popper.js/dist/popper.min.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+
 </html>
