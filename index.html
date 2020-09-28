@@ -86,7 +86,7 @@
         <div class=" card-columns">
             <div class=" card card-hotel flex-column justify-content-between ml-2">
                 <div class="card-body">
-                    <h5 class="card-title"> Hotel Barcelona</h5>
+                    <h5 class="card-title" data-toggle="tooltip" data-placement="top" title="Las primeras reservas cuentan con bebidas gratis"> Hotel Barcelona</h5>
                     <h6 class="card-subtitle"> España</h6>
                     <img class="card-img-top" src="./images/hotel_barcelona.JPG" alt="hotel img">
                     <p class="card-text">Hotel ubicado en pleno centro de Barcelona a
@@ -150,8 +150,7 @@
                     <button class="btn btn-outline-success" data-toggle="modal" data-target="#contacto"> <span class="oi oi-location footer-address-icon"></span> Contactar</button>
                 </div>
                 <div>
-                    <button class="btn btn-primary btn-reserva" data-toggle="modal" data-target="#reservaFade"> <span
-                            class="oi oi-plus"></span> Reservar</button>
+                    <button type= "button" class="btn btn-primary btn-reserva" data-toggle="popover" title="Popover title" data-content="Consulta para reservar"> <span class="oi oi-plus"></span> Reservar</button>
                 </div>
             </div>
         </div>
@@ -239,8 +238,14 @@
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="node_modules/popper.js/dist/popper.min.js"></script>
+    <script src="node_modules/popper.js/dist//umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script>
+        $(function () {
+        $('[data-toggle="popover"]').popover()
+        $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
 </body>
 
 </html>
