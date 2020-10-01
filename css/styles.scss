@@ -1,20 +1,27 @@
+$background: rgb(35, 37, 37);
+$secondBackground:rgb(30, 33, 35);
+$text: rgb(146, 141, 123);
+@mixin margenes($top, $botton) {
+    margin-top: $top;
+    margin-bottom: $botton;
+}
+
 .jumbotron {
-    background-color: rgb(35, 37, 37);
+    background-color: $background;
     color: rgb(146, 141, 123);
-    margin-top: 50px;
+    @include margenes(50px, 0px);
 }
 
 footer {
     padding: 10px 10px 0 10px;
-    background-color: rgb(30, 33, 35);
-    margin-bottom: 0px;
-    margin-top: 10px;
+    background-color: $secondBackground;
+    @include margenes(10px, 0px)
 }
 
 .card-hotel {
     flex: 1 200px;
     margin-top: 10;
-    background-color: rgb(30, 33, 35);
+    background-color: $secondBackground;
     border: rgb(146, 141, 123);
 }
 
@@ -67,9 +74,11 @@ a {
 }
 
 
-/* 30-33-35 Earie Black
-/* 91-117-83 Fern Green
-/* 177-237-232 Celeste
-/* 109-100-185 Blue Violet
-/* 146-141-123 Middle Grey
-/* 35-37-37 Earie Black
+/* 
+    30-33-35 Earie Black
+    91-117-83 Fern Green
+    177-237-232 Celeste
+    109-100-185 Blue Violet
+    146-141-123 Middle Grey
+    35-37-37 Earie Black
+*/

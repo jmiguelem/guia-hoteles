@@ -1,0 +1,64 @@
+.jumbotron {
+  background-color: #232525;
+  color: #928d7b;
+  margin-top: 50px;
+  margin-bottom: 0px; }
+
+footer {
+  padding: 10px 10px 0 10px;
+  background-color: #1e2123;
+  margin-top: 10px;
+  margin-bottom: 0px; }
+
+.card-hotel {
+  flex: 1 200px;
+  margin-top: 10;
+  background-color: #1e2123;
+  border: #928d7b; }
+
+.btn-reserva {
+  width: 100%;
+  border-radius: 0%;
+  color: #928d7b;
+  background-color: #1e2123; }
+
+.footer-address-icon {
+  padding-right: 10px; }
+
+.tab-content {
+  padding-top: 10px; }
+
+body {
+  background-color: #232525;
+  color: #928d7b; }
+
+.nav-bar {
+  background-color: #232525;
+  color: #928d7b; }
+
+.nav-bar {
+  background-color: #1e2123;
+  color: #928d7b; }
+
+a {
+  color: #928d7b; }
+
+.navbar-toggler {
+  color: #928d7b; }
+
+.breadcrumb {
+  background-color: #1e2123;
+  color: #928d7b; }
+
+.btn {
+  background-color: #1e2123;
+  color: #928d7b; }
+
+/* 
+    30-33-35 Earie Black
+    91-117-83 Fern Green
+    177-237-232 Celeste
+    109-100-185 Blue Violet
+    146-141-123 Middle Grey
+    35-37-37 Earie Black
+*/
