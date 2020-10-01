@@ -1,25 +1,28 @@
 .jumbotron{
-    background-color: yellow;
-    color: black;
+    background-color: rgb(35, 37, 37);
+    color: rgb(146, 141, 123);
     margin-top: 50px;
 }
 
 footer{
     padding: 10px 10px 0 10px;
-    background-color: yellow;
+    background-color: rgb(35, 37, 37);
     margin-bottom: 0px;
     margin-top: 10px;
 }
 
 .card-hotel{
     flex: 1 200px;
-    margin-top: 5px;
+    margin-top: 10;
+    background-color: rgb(30, 33, 35);
+    border: rgb(146, 141, 123);
 }
 
 .btn-reserva{
     width: 100%;
     border-radius: 0%;
-
+    color: rgb(146, 141, 123);
+    background-color: rgb(30, 33, 35);
 }
 
 .footer-address-icon {
@@ -28,4 +31,14 @@ footer{
 
 .tab-content {
     padding-top: 10px;
+}
+
+body {
+    background-color: rgb(35, 37, 37);
+    color: rgb(146, 141, 123);
+}
+
+.nav-bar {
+    background-color: rgb(35, 37, 37);
+    color: rgb(146, 141, 123);
 }
