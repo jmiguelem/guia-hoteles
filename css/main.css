@@ -66,10 +66,57 @@ a {
     color: rgb(146, 141, 123);
 }
 
+form {
+    color: rgb(146, 141, 123);
+    padding: 20px;
+}
 
-/* 30-33-35 Earie Black
-/* 91-117-83 Fern Green
-/* 177-237-232 Celeste
-/* 109-100-185 Blue Violet
-/* 146-141-123 Middle Grey
-/* 35-37-37 Earie Black
+.form-control {
+    background-color: rgb(30, 33, 35);
+    color: rgb(146, 141, 123);
+}
+
+option {
+    background-color: rgb(30, 33, 35);
+    color: rgb(146, 141, 123);
+}
+
+.form-control {
+    background-color: rgb(30, 33, 35);
+    color: rgb(146, 141, 123);
+}
+
+.form-control:focus {
+    background-color: rgb(30, 33, 35);
+    color: rgb(146, 141, 123);
+}
+
+.thead {
+    background-color: rgb(19, 21, 22);
+    color: rgb(146, 141, 123);
+}
+
+tbody {
+    background-color: rgb(30, 33, 35);
+    color: rgb(146, 141, 123);
+}
+
+.collapse {
+    background-color: rgb(30, 33, 35);
+    color: rgb(146, 141, 123);
+}
+
+.card-body {
+    background-color: rgb(35, 37, 37);
+    color: rgb(146, 141, 123);
+}
+
+.card-header {
+    background-color: rgb(30, 33, 35);
+    color: rgb(146, 141, 123);
+}
+
+.modal {
+    background-color: rgb(30, 33, 35);
+    color: rgb(146, 141, 123);
+}

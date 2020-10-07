@@ -7,20 +7,19 @@
     <meta name="viewport" content="width=device-width, 
         initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
+    <!-- build:css dist/index.css -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="node_modules/open-iconic/font/css/open-iconic-bootstrap.min.css">
-
+    <!-- endbuild-->
     <title>Guia-Hoteles</title>
 </head>
 
 <body>
 
     <nav class="navbar navbar-expand-md fixed-top nav-bar">
-        <a class="navbar-brand" href="#">Hoteles</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <h3>Hoteles</h3>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="oi oi-menu"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -48,42 +47,24 @@
         </nav>
 
 
-
         <div class="row">
-            <div class="col-sm-4">
-                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#funciona"
-                    aria-expanded="false" aria-controls="multiCollapse1">¿Cómo funciona?</button>
-            </div>
-            <div class="col-sm-4">
-                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#reserva"
-                    aria-expanded="false" aria-controls="multiCollapse2">¿Dónde puedo reservar?</button>
-            </div>
-            <div class="col-sm-4">
-                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#pago"
-                    aria-expanded="false" aria-controls="multiCollapse3">¿Cómo pago?</button>
-            </div>
-        </div>
-
-
-        <div class="row">
-            <div class="col-sm-4 collapse multi-collapse" id="funciona">
+            <div class="col-sm-4" id="funciona">
                 <p>
-                <h3>Cómo funciona?</h3>
-                <p> Busca los hoteles de acuerdi a tu preferencia</p>
+                    <h3>Cómo funciona?</h3>
+                    <p> Busca los hoteles de acuerdi a tu preferencia</p>
                 </p>
             </div>
-            <div class="col-sm-4 collapse multi-collapse" id="reserva">
+            <div class="col-sm-4" id="reserva">
                 <p>
-                <h3>Dónde puedo reservar?</h3>
-                <p>Elige la ciudad que te interese y luego realiza
-                    la reserva con tus datos
-                </p>
+                    <h3>Dónde puedo reservar?</h3>
+                    <p>Elige la ciudad que te interese y luego realiza la reserva con tus datos
+                    </p>
                 </p>
             </div>
-            <div class="col-sm-4 collapse multi-collapse" id="pago">
+            <div class="col-sm-4" id="pago">
                 <p>
-                <h3>Cómo pago?</h3>
-                <p>Utilize su tarjeta favorita</p>
+                    <h3>Cómo pago?</h3>
+                    <p>Utilize su tarjeta favorita</p>
                 </p>
             </div>
         </div>
@@ -114,19 +95,20 @@
             </a>
         </div>
 
-
+        <hr>
 
         <div class=" card-columns">
             <div class=" card card-hotel flex-column justify-content-between ml-2">
                 <div class="card-body">
-                    <h5 class="card-title" data-toggle="tooltip" data-placement="top"
-                        title="Las primeras reservas cuentan con bebidas gratis"> Hotel Barcelona</h5>
-                    <h6 class="card-subtitle"> España</h6>
+                    <h3 class="card-title" data-toggle="tooltip" data-placement="top" title="Las primeras reservas cuentan con bebidas gratis"> Hotel Barcelona</h3>
+                    <h5 class="card-subtitle"> España</h5>
+                    <hr>
                     <img class="card-img-top" src="./images/hotel_barcelona.JPG" alt="hotel img">
-                    <p class="card-text">Hotel ubicado en pleno centro de Barcelona a
-                        pocos metros de la playa</p>
+                    <hr>
+                    <p class="card-text">Hotel ubicado en pleno centro de Barcelona a pocos metros de la playa
+                    </p>
                     <button class="btn btn-outline-success" data-toggle="modal" data-target="#contacto"> <span
-                            class="oi oi-location footer-address-icon"></span> Contactar</button>
+                                    class="oi oi-location footer-address-icon"></span> Contactar</button>
                 </div>
                 <div>
                     <button class="btn btn-primary btn-reserva" data-toggle="modal" data-target="#reservaFade"> <span
@@ -137,11 +119,12 @@
 
             <div class=" card card-hotel  flex-column justify-content-between ml-2">
                 <div class="card-body">
-                    <h5 class="card-title"> Hotel Cancun</h5>
-                    <h6 class="card-subtitle"> México</h6>
+                    <h3 class="card-title"> Hotel Cancun</h3>
+                    <h5 class="card-subtitle"> México</h5>
+                    <hr>
                     <img class="card-img-top" src="./images/hotel_cancun.jpg" alt="hotel img">
-                    <p class="card-text">Hotel ubicado en la zona hotelera de Cancun,
-                        con acceso al mar</p>
+                    <hr>
+                    <p class="card-text">Hotel ubicado en la zona hotelera de Cancun, con acceso al mar</p>
                     <button class="btn btn-outline-success" data-toggle="modal" data-target="#contacto"> <span
                             class="oi oi-location footer-address-icon"></span> Contactar</button>
                 </div>
@@ -152,11 +135,12 @@
             </div>
             <div class=" card card-hotel  flex-column justify-content-between ml-2">
                 <div class="card-body">
-                    <h5 class="card-title"> Hotel Paris</h5>
-                    <h6 class="card-subtitle"> Francia</h6>
+                    <h3 class="card-title"> Hotel Paris</h3>
+                    <h5 class="card-subtitle"> Francia</h5>
+                    <hr>
                     <img class="card-img-top" src="./images/hotel_Paris.jpg" alt="hotel img">
-                    <p class="card-text">Hotel ubicado en pleno centro de Paris a pocos
-                        metros del arco del triunfo</p>
+                    <hr>
+                    <p class="card-text">Hotel ubicado en pleno centro de Paris a pocos metros del arco del triunfo</p>
                     <button class="btn btn-outline-success" data-toggle="modal" data-target="#contacto"> <span
                             class="oi oi-location footer-address-icon"></span> Contactar</button>
                 </div>
@@ -167,11 +151,12 @@
             </div>
             <div class=" card card-hotel  flex-column justify-content-between ml-2">
                 <div class="card-body">
-                    <h5 class="card-title"> Hotel Madrid</h5>
-                    <h6 class="card-subtitle"> España</h6>
+                    <h3 class="card-title"> Hotel Madrid</h3>
+                    <h5 class="card-subtitle"> España</h5>
+                    <hr>
                     <img class="card-img-top" src="./images/hotel_madrid.jpg" alt="hotel img">
-                    <p class="card-text">Hotel ubicado en pleno centro de Madrid, cerca
-                        del estadio del Real Madrid</p>
+                    <hr>
+                    <p class="card-text">Hotel ubicado en pleno centro de Madrid, cerca del estadio del Real Madrid</p>
                     <button class="btn btn-outline-success" data-toggle="modal" data-target="#contacto"> <span
                             class="oi oi-location footer-address-icon"></span> Contactar</button>
                 </div>
@@ -182,25 +167,23 @@
             </div>
             <div class=" card card-hotel flex-column justify-content-between ml-2">
                 <div class="card-body">
-                    <h5 class="card-title"> Hotel Munich</h5>
-                    <h6 class="card-subtitle"> Alemania</h6>
+                    <h3 class="card-title"> Hotel Munich</h3>
+                    <h5 class="card-subtitle"> Alemania</h5>
+                    <hr>
                     <img class="card-img-top" src="./images/hotel_munich.jpg" alt="hotel img">
-                    <p class="card-text">Hotel ubicado en Munich, cerca del
-                        castillo de Neuschwanstein</p>
-                    <button class="btn btn-outline-success" data-toggle="modal" data-target="#contacto" id="contactoBtn"> <span
-                            class="oi oi-location footer-address-icon"></span> Contactar</button>
+                    <hr>
+                    <p class="card-text">Hotel ubicado en Munich, cerca del castillo de Neuschwanstein</p>
+                    <button class="btn btn-outline-success" data-toggle="modal" data-target="#contacto" id="contactoBtn"> <span class="oi oi-location footer-address-icon"></span> Contactar</button>
                 </div>
                 <div>
-                    <button type="button" class="btn btn-primary btn-reserva" data-toggle="popover"
-                        title="Popover title" data-content="Consulta para reservar"> <span class="oi oi-plus"></span>
+                    <button type="button" class="btn btn-primary btn-reserva" data-toggle="popover" title="Popover title" data-content="Consulta para reservar"> <span class="oi oi-plus"></span>
                         Reservar</button>
                 </div>
             </div>
         </div>
 
 
-        <div class="modal fade" id="contacto" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-            aria-hidden="true">
+        <div class="modal fade" id="contacto" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -217,7 +200,7 @@
                             </div>
                             <div class="form-group">
                                 <label for="message-text" class="col-form-label">Mensaje:</label>
-                                <textarea class="foem-control" id="mwssage-text"></textarea>
+                                <textarea class="form-control" id="message-text"></textarea>
                             </div>
                         </form>
                     </div>
@@ -229,8 +212,7 @@
         </div>
 
 
-        <div class="modal fade" id="reservaFade" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-            aria-hidden="true">
+        <div class="modal fade" id="reservaFade" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -286,39 +268,39 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- build:js dist/index.js -->
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="node_modules/popper.js/dist//umd/popper.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script>
-        $(function () {
+        $(function() {
             $('[data-toggle="popover"]').popover()
             $('[data-toggle="tooltip"]').tooltip()
             $('.carousel').carousel({
                 interval: 3000
             })
 
-            $('#contacto').on('show.bs.modal', function(e){
+            $('#contacto').on('show.bs.modal', function(e) {
                 console.log('el mensaje se esta mostrando')
 
                 $('#contactoBtn').removeClass('btn-outline-success')
-                $('#contactoBtn').addClass('btn-primary')
                 $('#contactoBtn').prop('disabled', true)
             })
-            $('#contacto').on('shown.bs.modal', function(e){
+            $('#contacto').on('shown.bs.modal', function(e) {
                 console.log('el mensaje se mostro')
             })
-            $('#contacto').on('hide.bs.modal', function(e){
+            $('#contacto').on('hide.bs.modal', function(e) {
                 console.log('el mensaje se oculta')
             })
-            $('#contacto').on('hidden.bs.modal', function(e){
+            $('#contacto').on('hidden.bs.modal', function(e) {
                 console.log('el mensaje se oculto')
                 $('#contactoBtn').prop('disabled', false)
-                $('#contactoBtn').removeClass('btn-primary')
                 $('#contactoBtn').addClass('btn-outline-success')
-                $('#contactoBtn').addClass()
+
             })
         })
     </script>
+    <!-- endbuild -->
 </body>
 
 </html>

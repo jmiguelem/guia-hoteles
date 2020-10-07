@@ -1,6 +1,9 @@
 $background: rgb(35, 37, 37);
 $secondBackground:rgb(30, 33, 35);
 $text: rgb(146, 141, 123);
+$url_hover: rgb(175, 179, 247);
+$title: rgb(16, 76, 150);
+$secondTitle: rgb(46, 160, 49);
 @mixin margenes($top, $botton) {
     margin-top: $top;
     margin-bottom: $botton;
@@ -8,7 +11,7 @@ $text: rgb(146, 141, 123);
 
 .jumbotron {
     background-color: $background;
-    color: rgb(146, 141, 123);
+    color: $title;
     @include margenes(50px, 0px);
 }
 
@@ -21,64 +24,132 @@ footer {
 .card-hotel {
     flex: 1 200px;
     margin-top: 10;
+    margin-bottom: 10;
+    padding: 5px;
     background-color: $secondBackground;
-    border: rgb(146, 141, 123);
+    border: 1px solid $text;
 }
 
 .btn-reserva {
     width: 100%;
     border-radius: 0%;
-    color: rgb(146, 141, 123);
-    background-color: rgb(30, 33, 35);
+    color: $text;
+    background-color: $secondBackground;
 }
 
 .footer-address-icon {
-    padding-right: 10px;
+    padding: 10px;
 }
 
 .tab-content {
-    padding-top: 10px;
+    padding: 10px;
 }
 
 body {
-    background-color: rgb(35, 37, 37);
-    color: rgb(146, 141, 123);
+    background-color: $background;
+    color: $text;
 }
 
 .nav-bar {
-    background-color: rgb(35, 37, 37);
-    color: rgb(146, 141, 123);
+    background-color: $secondBackground;
+    color: $text;
 }
 
-.nav-bar {
-    background-color: rgb(30, 33, 35);
-    color: rgb(146, 141, 123);
+a:visited {
+    color: $text
 }
 
-a {
-    color: rgb(146, 141, 123);
+a:hover {
+    color: $url_hover;
 }
 
 .navbar-toggler {
-    color: rgb(146, 141, 123);
+    color: $text;
 }
 
 .breadcrumb {
-    background-color: rgb(30, 33, 35);
-    color: rgb(146, 141, 123);
+    background-color: $secondBackground;
+    color: $text;
 }
 
 .btn {
-    background-color: rgb(30, 33, 35);
-    color: rgb(146, 141, 123);
+    background-color: $secondBackground;
+    color: $text;
+}
+
+h3 {
+    color: $title;
+}
+
+h5 {
+    color: $secondTitle;
+}
+
+form {
+    color: $text;
+    padding: 20px;
+}
+
+.form-control {
+    background-color: $secondBackground;
+    color: $text;
+}
+
+option {
+    background-color: $secondBackground;
+    color: $text;
+}
+
+.form-control {
+    background-color: $secondBackground;
+    color: $text;
+}
+
+.form-control:focus {
+    background-color: $secondBackground;
+    color: $text;
+}
+
+.thead {
+    background-color: rgb(19, 21, 22);
+    color: $text;
+}
+
+tbody {
+    background-color: $secondBackground;
+    color: $text;
+}
+
+.collapse {
+    background-color: $secondBackground;
+    color: $text;
+}
+
+.card-body {
+    background-color: $background;
+    color: $text;
+}
+
+.card-header {
+    background-color: $secondBackground;
+    color: $text;
+}
+
+.close {
+    color: $text;
+}
+
+.modal-content {
+    background-color: $secondBackground;
+    color: $text;
 }
 
 
 /* 
-    30-33-35 Earie Black
-    91-117-83 Fern Green
-    177-237-232 Celeste
-    109-100-185 Blue Violet
-    146-141-123 Middle Grey
-    35-37-37 Earie Black
+    30,33,35 Earie Black
+    91,117,83 Fern Green
+    177,237,232 Celeste
+    109,100,185 Blue Violet
+    146,141,123 Middle Grey
+    35,37,37 Earie Black
 */
