@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, 
+        initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <!-- build:css dist/index.css -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="node_modules/open-iconic/font/css/open-iconic-bootstrap.min.css">
+    <!-- endbuild-->
+
+    <title>Guia-Hoteles</title>
+</head>
+
+<body>
+    <nav class="navbar  nav-bar navbar-expand-md  fixed-top">
+        <h3>Hoteles</h3>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="oi oi-menu"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="./about.html">Nosotros</a></li>
+                <li class="nav-item active"><a class="nav-link" href="#">Precios</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Términos y condiciones</a></li>
+                <li class="nav-item"><a class="nav-link" href="./contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="jumbotron">
+        <h1>Guia de Hoteles</h1>
+    </div>
+    <div class="container">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Precios</li>
+            </ol>
+        </nav>
+
+        <ul class="nav nav-pills" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="compara-tab" data-toggle="pill" href="#compara" role="tab" aria-controls="compara" aria-selected="true">Compara</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="tarjetas-tab" data-toggle="pill" href="#tarjetas" role="tab" aria-controls="tarjetas" aria-selected="false">Tarjetas</a>
+            </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="compara" role="tabpanel" aria-labelledby="compara-tab">
+                <div class="table-responsive">
+                    <table class="table table-striped">
+                        <thead class="thead">
+                            <th>Calidad</th>
+                            <th>Monclova</th>
+                            <th>Monterrey</th>
+                            <th>Ciudad de México</th>
+                            <th>Cancun</th>
+                        </thead>
+                        <tbody>
+                            <!--1 estrella-->
+                            <tr>
+                                <td><span class="oi oi-star"></span> </td>
+                                <td>$100</td>
+                                <td>$250</td>
+                                <td>$300</td>
+                                <td>$400</td>
+                            </tr>
+                            <!--2 estrellas-->
+                            <tr>
+                                <td><span class="oi oi-star"></span>
+                                    <span class="oi oi-star"></span></td>
+                                <td>$300</td>
+                                <td>$650</td>
+                                <td>$700</td>
+                                <td>$800</td>
+                            </tr>
+                            <!--3 estrellas-->
+                            <tr>
+                                <td><span class="oi oi-star"></span>
+                                    <span class="oi oi-star">
+                                    </span><span class="oi oi-star"></span></td>
+                                <td>$500</td>
+                                <td>$850</td>
+                                <td>$950</td>
+                                <td>$1200</td>
+                            </tr>
+                            <!--4 estrellas-->
+                            <tr>
+                                <td><span class="oi oi-star"></span>
+                                    <span class="oi oi-star"></span>
+                                    <span class="oi oi-star"></span>
+                                    <span class="oi oi-star"></span></td>
+                                <td>$650</td>
+                                <td>$900</td>
+                                <td>$1100</td>
+                                <td>$1500</td>
+                            </tr>
+                            <!--5 estrellas-->
+                            <tr>
+                                <td><span class="oi oi-star"></span>
+                                    <span class="oi oi-star"></span>
+                                    <span class="oi oi-star"></span>
+                                    <span class="oi oi-star"></span>
+                                    <span class="oi oi-star"></span></td>
+                                <td>$850</td>
+                                <td>$1450</td>
+                                <td>$1500</td>
+                                <td>$1900</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="tab-pane fade" id="tarjetas" role="tabpanel" aria-labelledby="tarjetas-tab">
+                <div class="accordion" id="accordionTarjetas">
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h5 class="mb-8">
+                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseBasica" aria-expanded="true" aria-controls="collapseBasica">
+                                    Tarjeta Basica </button>
+                            </h5>
+                        </div>
+                        <div id="collapseBasica" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionTarjetas">
+                            <div class="card-body">
+                                Puedes reservar en 3 pagos sin intereses.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion" id="accordionTarjetas">
+                        <div class="card">
+                            <div class="card-header" id="headingTwo">
+                                <h5 class="mb-8">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseVIP" aria-expanded="false" aria-controls="collapseVIP">
+                                        Tarjeta VIP </button>
+                                </h5>
+                            </div>
+                            <div id="collapseVIP" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionTarjetas">
+                                <div class="card-body">
+                                    Puedes reservar en 6 pagos sin intereses. Al llegar, recibiras una canasta de regalos para disfrutar con tu familia
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion" id="accordionTarjetas">
+                        <div class="card">
+                            <div class="card-header" id="headingThree">
+                                <h5 class="mb-8">
+                                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseBlack" aria-expanded="true" aria-controls="collapseBlack">
+                                        Tarjeta Black </button>
+                                </h5>
+                            </div>
+                            <div id="collapseBlack" class="collapse" aria-labelledby="headingThree" data-parent="#accordionTarjetas">
+                                <div class="card-body">
+                                    Puedes reservar en 12 pagos sin intereses. Al llegar, recibiras una canasta de regalos para disfrutas con tu familia y acceso al gimnasio y spa todos los dias de tus vacaciones
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="row">
+                <div class="col-sm-4 d-flex flex-column">
+                    <h3>Redes Sociales</h3>
+                    <p><a href="https://www.facebook.com/">Facebook</a></p>
+                    <p><a href="https://www.instagram.com/">Instagram</a></p>
+                    <p><a href="https://www.github.com/">Github</a></p>
+                </div>
+                <div class="col-sm-4">
+                    <address>
+                        <h3>Contacto</h3>
+                        <p><span class="oi oi-location footer-address-icon"></span> Monterrey Nuevo Leon |
+                            Monclova Coahuila</p>
+                        <p><span class="oi oi-phone footer-address-icon"></span> 8662059205</p>
+                        <p> <span class="oi oi-envelope-closed footer-address-icon"></span>
+                            miguel.elizaldem@outlook.com
+                        </p>
+                    </address>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <!-- build:js js/main.js -->
+        <script src="node_modules/jquery/dist/jquery.min.js"></script>
+        <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="js/index.js"></script>
+        <!-- endbuild -->
+</body>
+
+</html>
