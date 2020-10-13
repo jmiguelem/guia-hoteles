@@ -2,15 +2,13 @@
   background-color: #232525;
   color: #104c96;
   margin-top: 50px;
-  margin-bottom: 0px;
-}
+  margin-bottom: 0px; }
 
 footer {
   padding: 10px 10px 0 10px;
   background-color: #1e2123;
   margin-top: 10px;
-  margin-bottom: 0px;
-}
+  margin-bottom: 0px; }
 
 .card-hotel {
   flex: 1 200px;
@@ -18,122 +16,97 @@ footer {
   margin-bottom: 10;
   padding: 5px;
   background-color: #1e2123;
-  border: 1px solid #928d7b;
-}
+  border: 1px solid #928d7b; }
 
 .btn-reserva {
   width: 100%;
   border-radius: 0%;
   color: #928d7b;
-  background-color: #1e2123;
-}
+  background-color: #1e2123; }
 
 .footer-address-icon {
-  padding: 10px;
-}
+  padding: 10px; }
 
 .tab-content {
-  padding: 10px;
-}
+  padding: 10px; }
 
 body {
   background-color: #232525;
-  color: #928d7b;
-}
+  color: #928d7b; }
 
 .nav-bar {
   background-color: #1e2123;
-  color: #928d7b;
-}
+  color: #928d7b; }
 
 a:visited {
-  color: #928d7b;
-}
+  color: #928d7b; }
 
 a:hover {
-  color: #afb3f7;
-}
+  color: #afb3f7; }
 
 .navbar-toggler {
-  color: #928d7b;
-}
+  color: #928d7b; }
 
 .breadcrumb {
   background-color: #1e2123;
-  color: #928d7b;
-}
+  color: #928d7b; }
 
 .btn {
   background-color: #1e2123;
-  color: #928d7b;
-}
+  color: #928d7b; }
 
 h3 {
-  color: #104c96;
-}
+  color: #104c96; }
 
 h5 {
-  color: #2ea031;
-}
+  color: #2ea031; }
 
 form {
   color: #928d7b;
-  padding: 20px;
-}
+  padding: 20px; }
 
 .form-control {
   background-color: #1e2123;
-  color: #928d7b;
-}
+  color: #928d7b; }
 
 option {
   background-color: #1e2123;
-  color: #928d7b;
-}
+  color: #928d7b; }
 
 .form-control {
   background-color: #1e2123;
-  color: #928d7b;
-}
+  color: #928d7b; }
 
 .form-control:focus {
   background-color: #1e2123;
-  color: #928d7b;
-}
+  color: #928d7b; }
 
 .thead {
   background-color: #131516;
-  color: #928d7b;
-}
+  color: #928d7b; }
 
 tbody {
   background-color: #1e2123;
-  color: #928d7b;
-}
+  color: #928d7b; }
 
 .collapse {
   background-color: #1e2123;
-  color: #928d7b;
-}
+  color: #928d7b; }
 
 .card-body {
   background-color: #232525;
-  color: #928d7b;
-}
+  color: #928d7b; }
 
 .card-header {
   background-color: #1e2123;
-  color: #928d7b;
-}
+  color: #928d7b; }
 
 .close {
-  color: #928d7b;
-}
+  color: #928d7b; }
 
 .modal-content {
   background-color: #1e2123;
-  color: #928d7b;
-}
+  color: #928d7b; }
 
 /* 
     30,33,35 Earie Black
@@ -143,5 +116,3 @@ tbody {
     146,141,123 Middle Grey
     35,37,37 Earie Black
 */
-
-/*# sourceMappingURL=styles.css.map */
